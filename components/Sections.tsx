@@ -108,14 +108,14 @@ function Aarti() {
           <span className="aarti-line h-px flex-1 origin-left bg-gradient-to-r from-gold to-transparent" />
         </div>
         <p className="split mx-auto mt-8 max-w-sm text-lg leading-relaxed text-ivory/85">
-          Let us come together in devotion, prayer and celebration.
+          Come sing, pray and celebrate with us.
         </p>
 
         {/* daily schedule: one card, one glance */}
         <div className="reveal mx-auto mt-10 max-w-sm rounded-3xl border border-gold/35 bg-night/50 px-5 py-7 backdrop-blur-sm">
           <p lang="hi" className="font-deva text-lg text-marigold">प्रतिदिन संध्या आरती</p>
           <p className="mt-1 font-serif text-[2.6rem] leading-none text-gold-light">{aarti.time}</p>
-          <p className="mt-1 text-xs font-semibold uppercase tracking-[.3em] text-ivory/70">onwards · every evening</p>
+          <p className="mt-1 text-xs font-semibold uppercase tracking-[.3em] text-ivory/70">onwards, every evening</p>
           <ol aria-label="Aarti dates, September 2026" className="aarti-days mt-6 grid grid-cols-6 gap-1.5">
             {aartiDays.map((d) => (
               <li key={d.getDate()} className="aarti-day rounded-xl border border-gold/25 bg-gold/5 py-1.5">
@@ -127,7 +127,7 @@ function Aarti() {
             ))}
           </ol>
           <p className="mt-4 text-sm text-ivory/75">
-            {aarti.from} – {aarti.to} September · come any evening
+            {aarti.from}-{aarti.to} September. Drop by any evening!
           </p>
         </div>
         <div className="mt-12 flex items-end justify-center gap-24 md:gap-40">
@@ -161,7 +161,7 @@ function Venue() {
         Get Directions
       </a>
       <p className="reveal mx-auto mt-10 max-w-xs font-serif text-xl italic text-maroon/80">
-        We would be delighted to have you and your family join us.
+        A little piece of India in Chicago. Come over, the modaks are on us!
       </p>
     </Page>
   );
@@ -181,13 +181,19 @@ function Family() {
         Bappa is coming home.
       </h2>
       <p className="split mx-auto mt-8 max-w-md text-lg leading-relaxed text-ivory/80">
-        Every year Bappa comes home and fills it with light, laughter and the sweetness of modaks. This year it would
-        mean the world to us to share that joy with you — at his Sthapna, and at the aarti each evening.
+        We may be miles away from home, but Bappa always makes this place feel like ghar. There will be aarti,
+        laughter, good food and plenty of modaks. Come celebrate with us, at his Sthapna and at the aarti every evening.
       </p>
       <p className="reveal mt-12 font-serif text-2xl italic text-gold-light">
-        With love,
+        Dher saara pyaar,
         <span className="mt-1 block text-3xl font-semibold not-italic">The {invitation.family} Family</span>
       </p>
+      <div className="reveal mx-auto mt-8 max-w-sm">
+        <p className="text-xs font-semibold uppercase tracking-[.4em] text-ivory/60">Invited by</p>
+        <p className="mt-3 font-serif text-xl leading-relaxed text-ivory/90">
+          {invitation.invitedBy.slice(0, -1).join(", ")} &amp; {invitation.invitedBy.at(-1)}
+        </p>
+      </div>
       <Modak className="modak-pop mx-auto mt-10 w-28" />
     </Page>
   );
@@ -211,17 +217,17 @@ function Finale() {
           निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥
         </p>
         <p className="reveal mx-auto mt-4 max-w-sm font-serif text-lg italic leading-snug text-ivory/70">
-          “O Lord of the curved trunk and mighty form, radiant as a million suns — may every good thing we begin be
+          “O Lord of the curved trunk and mighty form, radiant as a million suns, may every good thing we begin be
           free of obstacles, always.”
         </p>
         <Divider className="reveal mx-auto mt-10 max-w-[220px] text-gold" />
 
         <h2 id="finale-title" className="split mt-10 font-serif text-[clamp(2.6rem,11vw,4.2rem)] leading-tight text-ivory">
-          Please do come.
+          Please zaroor aana.
         </h2>
         <p className="split mx-auto mt-5 max-w-md text-lg leading-relaxed text-ivory/80">
-          Bappa’s blessings feel complete only when they are shared. Your presence is the most beautiful offering we
-          could place before him — come as you are, sing the aarti with us, share a modak, and carry his blessings home.
+          Bappa’s blessings are best when shared. Come as you are, sing the aarti with us, grab a modak (or three),
+          and take his blessings home.
         </p>
 
         <div className="finale-bappa relative mx-auto mt-20 aspect-[400/470] w-[62vw] max-w-[300px]">
@@ -233,10 +239,10 @@ function Finale() {
         </p>
         <p lang="mr" className="reveal mt-1 font-deva text-[clamp(1.4rem,6vw,2.2rem)] text-marigold">मंगलमूर्ती मोरया</p>
         <Divider className="reveal mx-auto mt-8 max-w-[220px] text-gold" />
-        <p className="reveal mt-8 font-serif text-2xl italic text-ivory/90">We look forward to seeing you</p>
+        <p className="reveal mt-8 font-serif text-2xl italic text-ivory/90">Can’t wait to see you!</p>
         <Diya className="reveal mx-auto mt-8 w-14" />
         <p className="reveal mt-8 font-serif text-3xl font-semibold text-gold-light">Ganpati Bappa Morya! 🙏</p>
-        <p className="mt-16 text-[11px] uppercase tracking-[.3em] text-ivory/40">With love · The {invitation.family} Family</p>
+        <p className="mt-16 text-[11px] uppercase tracking-[.3em] text-ivory/40">With love, The {invitation.family} Family</p>
       </div>
     </Page>
   );

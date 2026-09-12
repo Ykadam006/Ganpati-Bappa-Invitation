@@ -58,7 +58,7 @@ export default function Hero() {
           </Line>
           <Line>
             <p className="mx-auto max-w-[30ch] text-[13px] leading-relaxed text-maroon/80">
-              You and your family are lovingly invited to join us for
+              Far from home, together for Bappa. Join us for
             </p>
           </Line>
           <Line className="mt-3 short:mt-2">
@@ -83,7 +83,7 @@ export default function Hero() {
           </Line>
           <Line className="mt-1.5">
             <p className="text-[12px] text-maroon/75">
-              Aarti daily at {invitation.aarti.time} · till {invitation.aarti.to} September
+              Aarti daily at {invitation.aarti.time}, till {invitation.aarti.to} September
             </p>
           </Line>
         </article>

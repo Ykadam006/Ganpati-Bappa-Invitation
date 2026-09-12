@@ -158,7 +158,7 @@ export default function MusicPlayer() {
       />
       <div ref={mount} aria-hidden inert className="pointer-events-none fixed left-[-640px] top-0 h-[200px] w-[356px] opacity-0 [&_iframe]:size-full" />
 
-      <div className="fixed bottom-4 right-4 z-[60] flex items-center gap-0.5 rounded-full border border-gold/40 bg-night/85 p-1.5 shadow-[0_12px_40px_-10px_rgba(0,0,0,.9)] backdrop-blur-md">
+      <div className="fixed right-4 top-4 z-[60] flex items-center gap-0.5 rounded-full border border-gold/40 bg-night/85 p-1.5 shadow-[0_12px_40px_-10px_rgba(0,0,0,.9)] backdrop-blur-md">
         <button
           type="button"
           onClick={toggle}

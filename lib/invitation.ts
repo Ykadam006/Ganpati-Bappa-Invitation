@@ -5,6 +5,7 @@ const aarti = { time: "7:30 PM", from: 14, to: 25 };
 
 export const invitation = {
   family: "1517",
+  invitedBy: ["Unnati", "Bansari", "Yogesh", "Yash", "Mihir", "Himanshu"],
   dayDate: "Monday, 14 September 2026",
   aarti,
 
@@ -15,7 +16,7 @@ export const invitation = {
       name: "Ganpati Aarti",
       hi: "संध्या आरती",
       time: `${aarti.time} onwards`,
-      detail: `Every evening · ${aarti.from} – ${aarti.to} September`,
+      detail: `Every evening, ${aarti.from}-${aarti.to} September`,
     },
   ],
 
@@ -54,7 +55,7 @@ const address = invitation.address.join(", ");
 export const links = {
   maps: invitation.mapsUrl || `https://www.google.com/maps/search/?api=1&query=${enc(address)}`,
   calendar:
-    `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${enc(`${title} · ${invitation.family} Family`)}` +
+    `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${enc(`${title} - ${invitation.family} Family`)}` +
     `&dates=${invitation.calendar.start}/${invitation.calendar.end}&ctz=America/Chicago&location=${enc(address)}` +
-    `&details=${enc(invitation.events.map((e) => `${e.name} — ${e.time} (${e.detail})`).join("\n"))}`,
+    `&details=${enc(invitation.events.map((e) => `${e.name}: ${e.time} (${e.detail})`).join("\n"))}`,
 };

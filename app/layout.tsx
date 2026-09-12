@@ -12,8 +12,8 @@ const serif = Cormorant_Garamond({
 });
 const sans = Manrope({ subsets: ["latin"], variable: "--font-manrope" });
 
-const title = `Ganpati Bappa Sthapna & Aarti · ${invitation.family} Family`;
-const description = `Bappa is coming home! You and your family are lovingly invited for Ganpati Bappa Sthapna & Aarti on ${invitation.dayDate}.`;
+const title = `Ganpati Bappa Sthapna & Aarti - ${invitation.family} Family`;
+const description = `Bappa is coming home! A little piece of India in Chicago. You and your family are warmly invited for Ganpati Bappa Sthapna & Aarti on ${invitation.dayDate}.`;
 
 export const metadata: Metadata = {
   title,

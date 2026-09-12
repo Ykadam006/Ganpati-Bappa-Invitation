@@ -10,7 +10,7 @@ const murti = invitation.bappaImage
   : null;
 
 // The card WhatsApp shows when the link is shared.
-export const alt = "Ganpati Bappa Sthapna & Aarti — you're invited";
+export const alt = "Ganpati Bappa Sthapna & Aarti, you're invited";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
