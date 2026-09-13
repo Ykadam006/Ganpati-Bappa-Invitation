@@ -11,7 +11,7 @@ export const invitation = {
 
   // Order matters: [0] Sthapna, [1] Aarti.
   events: [
-    { name: "Ganpati Bappa Sthapna", hi: "गणपति बप्पा स्थापना", time: "11:30 AM", detail: "Monday, 14 September 2026" },
+    { name: "Ganpati Bappa Sthapna", hi: "गणपति बप्पा स्थापना", time: "10:00 AM", detail: "Monday, 14 September 2026" },
     {
       name: "Ganpati Aarti",
       hi: "संध्या आरती",
@@ -42,7 +42,7 @@ export const invitation = {
   ],
 
   // Google Calendar, local time (Chicago)
-  calendar: { start: "20260914T113000", end: "20260914T220000" },
+  calendar: { start: "20260914T100000", end: "20260914T220000" },
 };
 
 // Every aarti evening, for the date strip.
