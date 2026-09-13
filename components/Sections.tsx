@@ -182,7 +182,7 @@ function Family() {
       </h2>
       <p className="split mx-auto mt-8 max-w-md text-lg leading-relaxed text-ivory/80">
         We may be miles away from home, but Bappa always makes this place feel like ghar. There will be aarti,
-        laughter, good food and plenty of modaks. Come celebrate with us, at his Sthapna and at the aarti every evening.
+        laughter and plenty of modaks. Come celebrate with us, at his Sthapna and at the aarti every evening.
       </p>
       <p className="reveal mt-12 font-serif text-2xl italic text-gold-light">
         Dher saara pyaar,
