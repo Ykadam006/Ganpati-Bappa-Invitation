@@ -1,4 +1,4 @@
-# Ganpati Bappa Sthapna & Aarti — Invitation
+# Ganpati Bappa Evening Aarti — Invitation
 
 A scroll-cinematic, one-page invitation: velvet curtain → golden light → Bappa → invitation card.
 Full design and scene timings: [PLAN.md](PLAN.md).

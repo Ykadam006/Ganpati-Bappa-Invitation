@@ -327,3 +327,39 @@ button:focus-visible {
     animation: none;
   }
 }
+
+/* ---------- the aarti book ---------- */
+
+/* while the book is open the experience behind it must not scroll (Lenis included) */
+html:has(.aarti-dialog[open]),
+body:has(.aarti-dialog[open]) {
+  overflow: hidden;
+}
+
+.aarti-dialog {
+  width: min(720px, 100vw);
+  max-width: 100vw;
+  height: 100dvh;
+  max-height: 100dvh;
+  margin: auto;
+  padding: 0;
+  border: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background: var(--color-night);
+  background-image: var(--noise), radial-gradient(ellipse at 50% 0%, #45091a 0%, #1e0307 60%);
+  color: var(--color-ivory);
+}
+.aarti-dialog::backdrop {
+  background: rgb(10 2 4 / 0.8);
+  backdrop-filter: blur(4px);
+}
+.aarti-dialog[open] {
+  animation: book-in 0.35s ease-out;
+}
+@keyframes book-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}

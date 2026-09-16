@@ -1,24 +1,25 @@
 // Every word a guest reads lives here. Edit this file — nothing else — before sharing.
 
-// Evening aarti every day from the Sthapna (14th) till the 25th, September 2026.
-const aarti = { time: "7:30 PM", from: 14, to: 25 };
+// Evening aarti every day, 15th till the 25th of September 2026.
+const aarti = { time: "7:30 PM", from: 15, to: 25 };
 
 export const invitation = {
   family: "1517",
   invitedBy: ["Unnati", "Bansari", "Yogesh", "Yash", "Mihir", "Himanshu"],
-  dayDate: "Monday, 14 September 2026",
+  dayDate: `${aarti.from}-${aarti.to} September 2026`,
   aarti,
 
-  // Order matters: [0] Sthapna, [1] Aarti.
-  events: [
-    { name: "Ganpati Bappa Sthapna", hi: "गणपति बप्पा स्थापना", time: "10:00 AM", detail: "Monday, 14 September 2026" },
-    {
-      name: "Ganpati Aarti",
-      hi: "संध्या आरती",
-      time: `${aarti.time} onwards`,
-      detail: `Every evening, ${aarti.from}-${aarti.to} September`,
-    },
+  // The aarti book — page images rendered from ganpati-aartis.pdf (in /public), same order as the PDF.
+  aartis: [
+    { name: "Shree Ganesh Aarti", hi: "श्री गणेश आरती", first: "सुखकर्ता दुःखहर्ता", h: 1808 },
+    { name: "Durga Aarti", hi: "दुर्गा आरती", first: "दुर्गे दुर्घटभारी", h: 1925 },
+    { name: "Shree Shankar Aarti", hi: "श्री शंकर आरती", first: "लवथवती विक्राळा", h: 1913 },
+    { name: "Shree Datta Aarti", hi: "श्री दत्त आरती", first: "त्रिगुणात्मक त्रैमूर्ती", h: 1423 },
+    { name: "Shree Vitthal Aarti", hi: "श्री विठ्ठल आरती", first: "येई हो विठ्ठले", h: 1395 },
+    { name: "Ghalin Lotangan", hi: "घालिन लोटांगण", first: "घालीन लोटांगण वंदीन चरण", h: 2494 },
+    { name: "Shlok", hi: "श्लोक", first: "सदा सर्वदा योग तुझा घडावा", h: 1008 },
   ],
+  aartiPdf: "/ganpati-aartis.pdf",
 
   address: ["3001 S King Dr, Apt 3-1517", "Chicago, IL 60616"],
   mapsUrl: "", // optional: paste your exact Google Maps share link; otherwise built from the address
@@ -41,15 +42,15 @@ export const invitation = {
     { title: "Sukhkarta Dukhharta", from: "Aarti", id: "gFr5p5AyuD0" },
   ],
 
-  // Google Calendar, local time (Chicago)
-  calendar: { start: "20260914T100000", end: "20260914T220000" },
+  // Google Calendar, local time (Chicago) — the first evening; repeats daily till the last.
+  calendar: { start: "20260915T193000", end: "20260915T213000", until: "20260926T023000Z" },
 };
 
 // Every aarti evening, for the date strip.
 export const aartiDays = Array.from({ length: aarti.to - aarti.from + 1 }, (_, i) => new Date(2026, 8, aarti.from + i));
 
 const enc = encodeURIComponent;
-const title = "Ganpati Bappa Sthapna & Aarti";
+const title = "Ganpati Bappa Evening Aarti";
 const address = invitation.address.join(", ");
 
 export const links = {
@@ -57,5 +58,6 @@ export const links = {
   calendar:
     `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${enc(`${title} - ${invitation.family} Family`)}` +
     `&dates=${invitation.calendar.start}/${invitation.calendar.end}&ctz=America/Chicago&location=${enc(address)}` +
-    `&details=${enc(invitation.events.map((e) => `${e.name}: ${e.time} (${e.detail})`).join("\n"))}`,
+    `&recur=${enc(`RRULE:FREQ=DAILY;UNTIL=${invitation.calendar.until.replace(/[-:]/g, "")}`)}` +
+    `&details=${enc(`Ganpati Aarti at ${invitation.aarti.time}, every evening from ${invitation.dayDate}.`)}`,
 };

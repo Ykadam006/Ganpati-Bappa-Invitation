@@ -26,13 +26,12 @@ const kesari = "#c4531c";
 const label = { fontSize: 17, letterSpacing: 5, textTransform: "uppercase", color: "rgba(109,12,27,.7)" } as const;
 
 // The card WhatsApp shows when the link is shared: Bappa beside the invitation card.
-export const alt = "Ganpati Bappa beside the invitation card for the Sthapna & Aarti";
+export const alt = "Ganpati Bappa beside the invitation card for the evening aarti";
 export const size = { width: 1200, height: 630 };
 // JPEG, not PNG: WhatsApp skips preview images much over 300 KB, and the PNG is ~600 KB.
 export const contentType = "image/jpeg";
 
 export default async function Image() {
-  const [sthapna] = invitation.events;
   const png = new ImageResponse(
     (
       <div
@@ -91,13 +90,13 @@ export default async function Image() {
             <div style={{ width: 9, height: 9, background: gold, transform: "rotate(45deg)" }} />
             <div style={{ width: 90, height: 1, background: gold }} />
           </div>
-          <div style={{ fontSize: 23, color: "rgba(109,12,27,.85)" }}>Far from home, together for Bappa. Join us for</div>
-          <div style={{ marginTop: 6, fontSize: 64, lineHeight: 1, color: "#4a0712" }}>Ganpati Bappa Sthapna</div>
-          <div style={{ fontSize: 38, fontStyle: "italic", fontWeight: 500, color: kesari }}>&amp; Evening Aarti</div>
+          <div style={{ fontSize: 23, color: "rgba(109,12,27,.85)" }}>Bappa is home. Join us every evening for</div>
+          <div style={{ marginTop: 6, fontSize: 60, lineHeight: 1, color: "#4a0712" }}>Ganpati Bappa Aarti</div>
+          <div style={{ fontSize: 38, fontStyle: "italic", fontWeight: 500, color: kesari }}>{`at ${invitation.aarti.time}`}</div>
           <div style={{ ...label, marginTop: 14, paddingTop: 12, borderTop: `1px solid ${gold}`, color: maroon }}>
             {invitation.dayDate}
           </div>
-          <div style={{ marginTop: 4, fontSize: 22 }}>{`Sthapna at ${sthapna.time}, aarti daily at ${invitation.aarti.time}`}</div>
+          <div style={{ marginTop: 4, fontSize: 22 }}>{`Aarti every evening, till ${invitation.aarti.to} September`}</div>
           <div style={{ marginTop: 10, fontSize: 24, fontStyle: "italic", fontWeight: 500, color: kesari }}>
             {`With love, The ${invitation.family} Family`}
           </div>

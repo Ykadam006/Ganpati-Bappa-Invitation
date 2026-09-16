@@ -171,15 +171,6 @@ export default function Experience({ children }: { children: ReactNode }) {
           });
 
           // ---- Each page's own moment ----
-          // Details: the gold timeline draws as you scroll.
-          gsap.utils.toArray<HTMLElement>(".timeline-seg").forEach((seg) =>
-            gsap.fromTo(
-              seg,
-              { scaleY: 0 },
-              { scaleY: 1, ease: "none", scrollTrigger: { trigger: seg, start: "top 85%", end: "bottom 60%", scrub: true } },
-            ),
-          );
-
           // Aarti: lines grow, diyas brighten, Bappa drifts ≤20px, the twelve evenings fall into place.
           const aarti = () => ({ trigger: ".aarti", start: "top 75%", end: "center 55%", scrub: true });
           gsap.fromTo(".aarti-line", { scaleX: 0 }, { scaleX: 1, ease: "none", scrollTrigger: aarti() });

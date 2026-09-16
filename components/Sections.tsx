@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { aartiDays, invitation, links } from "@/lib/invitation";
+import AartiBook from "./AartiBook";
 import { BappaFigure, Corner, Diya, Divider, Lotus, Modak, Toran } from "./Art";
 import Petals from "./Petals";
 
@@ -45,41 +46,25 @@ function Page({
   );
 }
 
-/** Scene 4: the gold line draws down through each event. */
-function Details() {
+/** Scene 5: the aarti book — every aarti we sing, readable here, downloadable as the PDF. */
+function Book() {
   return (
-    <Page tone="paper" label="details-title" className="px-6 py-24 md:py-32">
-      <p lang="mr" className="reveal font-deva text-lg text-kesari">शुभ मुहूर्त</p>
-      <h2 id="details-title" className="split mt-2 font-serif text-[clamp(2.5rem,10vw,4.5rem)] leading-none text-wine">
-        The Celebration
+    <Page tone="paper" label="book-title" className="px-6 py-24 md:py-32">
+      <p lang="mr" className="reveal font-deva text-lg text-kesari">आरती संग्रह</p>
+      <h2 id="book-title" className="split mt-2 font-serif text-[clamp(2.5rem,10vw,4.5rem)] leading-none text-wine">
+        Sing With Us
       </h2>
-      <Diya className="reveal mx-auto mt-10 w-16" />
-      <ol className="mx-auto max-w-md">
-        {invitation.events.map((e) => (
-          <li key={e.name} className="flex flex-col items-center">
-            <span className="timeline-seg block h-16 w-px origin-top bg-gradient-to-b from-gold/30 to-gold md:h-24" />
-            <span className="reveal block size-3.5 rounded-full bg-kesari shadow-[0_0_0_6px_rgba(212,166,74,.22),0_0_24px_4px_rgba(242,163,58,.45)]" />
-            <div className="reveal mt-5">
-              <p lang="hi" className="font-deva text-kesari">{e.hi}</p>
-              <h3 className="mt-1 font-serif text-3xl text-wine md:text-4xl">{e.name}</h3>
-              <p className="mt-3 text-3xl font-light tracking-wide text-maroon">{e.time}</p>
-              <p className="mt-1 text-sm text-maroon/70">{e.detail}</p>
-            </div>
-          </li>
-        ))}
-      </ol>
-      <a
-        href={links.calendar}
-        {...external}
-        className="reveal mt-14 inline-block text-xs font-semibold uppercase tracking-[.25em] text-maroon underline decoration-gold/60 underline-offset-8"
-      >
-        Add to Google Calendar
-      </a>
+      <Divider className="reveal mx-auto mt-6 max-w-[220px] text-gold" />
+      <p className="split mx-auto mt-7 max-w-sm text-[15px] leading-relaxed text-maroon/80">
+        Don&apos;t know the words? Nobody does the first time. Here is the whole aarti book — open it right here, or
+        keep it on your phone.
+      </p>
+      <AartiBook />
     </Page>
   );
 }
 
-/** Scene 5: the aarti moment — darker, diyas brighten, Bappa faint behind. */
+/** Scene 4: the aarti moment — darker, diyas brighten, Bappa faint behind. */
 function Aarti() {
   const { aarti } = invitation;
   return (
@@ -116,9 +101,9 @@ function Aarti() {
           <p lang="hi" className="font-deva text-lg text-marigold">प्रतिदिन संध्या आरती</p>
           <p className="mt-1 font-serif text-[2.6rem] leading-none text-gold-light">{aarti.time}</p>
           <p className="mt-1 text-xs font-semibold uppercase tracking-[.3em] text-ivory/70">onwards, every evening</p>
-          <ol aria-label="Aarti dates, September 2026" className="aarti-days mt-6 grid grid-cols-6 gap-1.5">
+          <ol aria-label="Aarti dates, September 2026" className="aarti-days mt-6 flex flex-wrap justify-center gap-1.5">
             {aartiDays.map((d) => (
-              <li key={d.getDate()} className="aarti-day rounded-xl border border-gold/25 bg-gold/5 py-1.5">
+              <li key={d.getDate()} className="aarti-day w-12 rounded-xl border border-gold/25 bg-gold/5 py-1.5">
                 <span className="block text-[9px] font-semibold uppercase tracking-wider text-ivory/50">
                   {d.toLocaleDateString("en-IN", { weekday: "short" })}
                 </span>
@@ -129,6 +114,13 @@ function Aarti() {
           <p className="mt-4 text-sm text-ivory/75">
             {aarti.from}-{aarti.to} September. Drop by any evening!
           </p>
+          <a
+            href={links.calendar}
+            {...external}
+            className="mt-6 inline-block text-[11px] font-semibold uppercase tracking-[.25em] text-gold-light underline decoration-gold/50 underline-offset-8"
+          >
+            Add to Google Calendar
+          </a>
         </div>
         <div className="mt-12 flex items-end justify-center gap-24 md:gap-40">
           <Diya className="aarti-diya w-16 md:w-20" />
@@ -182,7 +174,7 @@ function Family() {
       </h2>
       <p className="split mx-auto mt-8 max-w-md text-lg leading-relaxed text-ivory/80">
         We may be miles away from home, but Bappa always makes this place feel like ghar. There will be aarti,
-        laughter and plenty of modaks. Come celebrate with us, at his Sthapna and at the aarti every evening.
+        laughter and plenty of modaks. Come celebrate with us at the aarti, any evening you can.
       </p>
       <p className="reveal mt-12 font-serif text-2xl italic text-gold-light">
         Dher saara pyaar,
@@ -251,8 +243,8 @@ function Finale() {
 export default function Sections() {
   return (
     <>
-      <Details />
       <Aarti />
+      <Book />
       <Venue />
       <Family />
       <Finale />

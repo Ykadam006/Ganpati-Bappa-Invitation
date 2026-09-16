@@ -57,24 +57,24 @@ export default function Hero() {
             <Divider className="mx-auto max-w-[200px] text-gold" />
           </Line>
           <Line>
-            <p className="mx-auto max-w-[30ch] text-[13px] leading-relaxed text-maroon/80">
-              Far from home, together for Bappa. Join us for
+            <p className="mx-auto max-w-[30ch] text-balance text-[13px] leading-relaxed text-maroon/80">
+              Bappa is home. Join us every evening for
             </p>
           </Line>
           <Line className="mt-3 short:mt-2">
-            <p lang="hi" className="font-deva text-[clamp(1.6rem,7vw,2.2rem)] leading-tight text-kesari short:text-[1.5rem]">
-              गणपति बप्पा स्थापना
+            <p lang="mr" className="font-deva text-[clamp(1.6rem,7vw,2.2rem)] leading-tight text-kesari short:text-[1.5rem]">
+              संध्या आरती
             </p>
           </Line>
           <Line className="mt-1">
             <h1 className="font-serif text-[clamp(2.1rem,9.5vw,3.2rem)] font-semibold leading-[.95] text-wine short:text-[2rem]">
               Ganpati Bappa
               <br />
-              Sthapna
+              Evening Aarti
             </h1>
           </Line>
           <Line>
-            <p className="mt-1 font-serif text-2xl italic text-kesari">&amp; Evening Aarti</p>
+            <p className="mt-1 font-serif text-2xl italic text-kesari">at {invitation.aarti.time}</p>
           </Line>
           <Line className="mt-4 short:mt-3">
             <p className="inline-block border-t border-gold/60 pt-3 text-[11px] font-bold uppercase tracking-[.28em] text-maroon">
@@ -82,9 +82,7 @@ export default function Hero() {
             </p>
           </Line>
           <Line className="mt-1.5">
-            <p className="text-[12px] text-maroon/75">
-              Aarti daily at {invitation.aarti.time}, till {invitation.aarti.to} September
-            </p>
+            <p className="text-[12px] text-maroon/75">Eleven evenings of aarti, prasad &amp; song</p>
           </Line>
         </article>
       </div>
