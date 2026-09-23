@@ -1,5 +1,7 @@
 // Every word a guest reads lives here. Edit this file — nothing else — before sharing.
 
+import { aartis } from "./aartis";
+
 // Evening aarti every day, 15th till the 25th of September 2026.
 const aarti = { time: "7:30 PM", from: 15, to: 25 };
 
@@ -9,16 +11,7 @@ export const invitation = {
   dayDate: `${aarti.from}-${aarti.to} September 2026`,
   aarti,
 
-  // The aarti book — page images rendered from ganpati-aartis.pdf (in /public), same order as the PDF.
-  aartis: [
-    { name: "Shree Ganesh Aarti", hi: "श्री गणेश आरती", first: "सुखकर्ता दुःखहर्ता", h: 1808 },
-    { name: "Durga Aarti", hi: "दुर्गा आरती", first: "दुर्गे दुर्घटभारी", h: 1925 },
-    { name: "Shree Shankar Aarti", hi: "श्री शंकर आरती", first: "लवथवती विक्राळा", h: 1913 },
-    { name: "Shree Datta Aarti", hi: "श्री दत्त आरती", first: "त्रिगुणात्मक त्रैमूर्ती", h: 1423 },
-    { name: "Shree Vitthal Aarti", hi: "श्री विठ्ठल आरती", first: "येई हो विठ्ठले", h: 1395 },
-    { name: "Ghalin Lotangan", hi: "घालिन लोटांगण", first: "घालीन लोटांगण वंदीन चरण", h: 2494 },
-    { name: "Shlok", hi: "श्लोक", first: "सदा सर्वदा योग तुझा घडावा", h: 1008 },
-  ],
+  aartis, // the aarti book — मराठी + Hinglish text lives in lib/aartis.ts
   aartiPdf: "/ganpati-aartis.pdf",
 
   address: ["3001 S King Dr, Apt 3-1517", "Chicago, IL 60616"],

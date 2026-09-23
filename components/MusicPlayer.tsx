@@ -121,6 +121,12 @@ export default function MusicPlayer() {
     );
   });
 
+  // the aarti book opened: stop everything; the guest can press play again when they want it
+  const hush = () => {
+    dhol.current!.pause();
+    yt.current?.pauseVideo();
+  };
+
   useEffect(() => {
     const open = () => onOpen();
     const parted = () => onOpened();
@@ -128,7 +134,9 @@ export default function MusicPlayer() {
     window.addEventListener("invite:open", open);
     window.addEventListener("invite:opened", parted);
     window.addEventListener("pointerdown", tap, { once: true });
+    window.addEventListener("aarti:read", hush);
     return () => {
+      window.removeEventListener("aarti:read", hush);
       window.removeEventListener("invite:open", open);
       window.removeEventListener("invite:opened", parted);
       window.removeEventListener("pointerdown", tap);

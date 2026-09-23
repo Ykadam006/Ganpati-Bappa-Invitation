@@ -1,19 +1,20 @@
 "use client";
 
-import { useRef, useSyncExternalStore } from "react";
-import { createPortal } from "react-dom";
-import Image from "next/image";
+import { useRef, useState, useSyncExternalStore } from "react";
+import { createPortal, flushSync } from "react-dom";
 import { invitation } from "@/lib/invitation";
 import { Lotus } from "./Art";
 
 /**
- * The aarti book: the pages of ganpati-aartis.pdf, rendered as images and read inside the site
- * in a native <dialog> (top layer, so the pinned/transformed pages behind it can't skew it).
+ * The aarti book: every aarti's text (lib/aartis.ts), read inside the site in a native <dialog>
+ * (top layer, so the pinned/transformed pages behind it can't skew it).
  * The PDF itself stays one tap away for anyone who wants it on their phone.
  *
  * The dialog is portalled to <body>: ScrollTrigger's pinning moves this section into a pin-spacer
  * on every refresh, and a dialog detached from the document silently drops out of the top layer —
  * it stays open but turns into a plain, unscrollable box in the middle of the page.
+ *
+ * Every aarti reads in मराठी or Hinglish, for guests who don't read Devanagari.
  */
 export default function AartiBook() {
   const dlg = useRef<HTMLDialogElement>(null);
@@ -25,10 +26,21 @@ export default function AartiBook() {
   );
 
   // the page behind stops scrolling via CSS (:has in globals.css), so nothing to clean up on close
-  const open = (i = 0) => {
+  const [lang, setLang] = useState<"mr" | "en">("mr");
+  const open = (i = 0, l = lang) => {
     const el = dlg.current!;
+    flushSync(() => setLang(l));
+    if (!el.open) window.dispatchEvent(new Event("aarti:read")); // MusicPlayer goes quiet while they sing
     el.showModal();
     el.querySelector(`#aarti-page-${i}`)?.scrollIntoView();
+  };
+  // switching script keeps you on the aarti you were reading: the last page whose top is under the header
+  const switchTo = (l: "mr" | "en") => {
+    const el = dlg.current!;
+    const top = el.getBoundingClientRect().top + 80;
+    const pages = [...el.querySelectorAll("section[id^=aarti-page-]")];
+    const i = Math.max(0, pages.findLastIndex((p) => p.getBoundingClientRect().top <= top));
+    open(i, l);
   };
 
   return (
@@ -76,6 +88,13 @@ export default function AartiBook() {
         >
           <span aria-hidden>📖</span> Read the Aartis
         </button>
+        <button
+          type="button"
+          onClick={() => open(0, "en")}
+          className="inline-flex min-h-11 items-center gap-2 rounded-full border border-gold/50 px-6 text-sm font-semibold text-maroon transition-colors hover:bg-gold/10"
+        >
+          Read in Hinglish (English letters)
+        </button>
         <a
           href={invitation.aartiPdf}
           download="Ganpati-Aartis.pdf"
@@ -111,6 +130,23 @@ export default function AartiBook() {
                   Aarti Sangrah
                 </span>
               </p>
+              <div
+                role="group"
+                aria-label="Script"
+                className="flex shrink-0 rounded-full border border-gold/40 p-0.5 text-xs font-semibold"
+              >
+                {(["mr", "en"] as const).map((l) => (
+                  <button
+                    key={l}
+                    type="button"
+                    aria-pressed={lang === l}
+                    onClick={() => lang !== l && switchTo(l)}
+                    className={`min-h-9 rounded-full px-3 transition-colors ${lang === l ? "bg-gold text-night" : "text-gold-light"}`}
+                  >
+                    {l === "mr" ? <span lang="mr" className="font-deva">मराठी</span> : "Hinglish"}
+                  </button>
+                ))}
+              </div>
               <a
                 href={invitation.aartiPdf}
                 download="Ganpati-Aartis.pdf"
@@ -164,18 +200,19 @@ export default function AartiBook() {
                     <span className="mt-1 block text-[11px] font-semibold uppercase tracking-[.3em] text-ivory/55">
                       {a.name}
                     </span>
+                    {a.note && (
+                      <span className="mt-2 inline-block rounded-full border border-gold/40 px-3 py-0.5 text-[11px] font-semibold text-gold-light">
+                        {a.note}
+                      </span>
+                    )}
                   </h3>
-                  {/* the PDF pages are black on white: multiply drops the white into the ivory paper */}
-                  <div className="paper overflow-hidden rounded-2xl border border-gold/30 p-2 shadow-[0_18px_40px_-20px_rgba(0,0,0,.8)]">
-                    <Image
-                      src={`/aartis/${i + 1}.jpg`}
-                      alt={`${a.name} — ${a.hi}`}
-                      width={1100}
-                      height={a.h}
-                      sizes="(min-width: 768px) 700px, 100vw"
-                      loading={i ? "lazy" : "eager"}
-                      className="h-auto w-full mix-blend-multiply"
-                    />
+                  <div className="paper rounded-2xl border border-gold/30 shadow-[0_18px_40px_-20px_rgba(0,0,0,.8)]">
+                    <p
+                      lang={lang}
+                      className={`whitespace-pre-line px-5 py-7 text-left text-night ${lang === "mr" ? "font-deva text-xl leading-loose" : "font-serif text-[1.3rem] leading-relaxed"}`}
+                    >
+                      {a[lang]}
+                    </p>
                   </div>
                 </section>
               ))}
