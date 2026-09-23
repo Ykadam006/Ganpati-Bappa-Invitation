@@ -423,7 +423,10 @@ Ganpati Bappa Morya`,
 
 तदप्येष श्लोकोऽभिगीतो ।
 मरुतः परिवेष्टारो मरुत्तस्यावसन् गृहे ।
-आविक्षितस्य कामप्रेर्विश्वेदेवाः सभासद इति ॥`,
+आविक्षितस्य कामप्रेर्विश्वेदेवाः सभासद इति ॥
+
+ॐ एकदन्ताय विद्महे वक्रतुण्डाय धीमहि ।
+तन्नो दन्ती प्रचोदयात् ॥`,
     en: `Om Yajnena Yajnam Ayajanta Deva
 Tani Dharmani Prathamanyasan
 Te Ha Nakam Mahimanah Sachanta
@@ -444,7 +447,10 @@ Prithivyai Samudraparyantaya Ekaraliti
 
 Tadapyesha Shloko'bhigito
 Marutah Pariveshtaro Maruttasyavasan Grihe
-Avikshitasya Kamaprervishvedevah Sabhasada Iti`,
+Avikshitasya Kamaprervishvedevah Sabhasada Iti
+
+Om Ekadantaya Vidmahe Vakratundaya Dhimahi
+Tanno Danti Prachodayat`,
   },
   {
     name: "Closing Shloks",
