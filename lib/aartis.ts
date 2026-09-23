@@ -21,6 +21,7 @@ export const aartis: Aarti[] = [
 
 जय देव जय देव जय मंगलमूर्ती ।
 दर्शनमात्रे मनकामना पुरती ॥ धृ ॥
+जय देव जय देव
 
 रत्नखचित फरा तुज गौरीकुमरा ।
 चंदनाची उटी कुंकुमकेशरा ।
@@ -29,6 +30,7 @@ export const aartis: Aarti[] = [
 
 जय देव जय देव जय मंगलमूर्ती ।
 दर्शनमात्रे मनकामना पुरती ॥
+जय देव जय देव
 
 लंबोदर पीतांबर फणिवरबंधना ।
 सरळ सोंड वक्रतुंड त्रिनयना ।
@@ -36,7 +38,8 @@ export const aartis: Aarti[] = [
 संकटी पावावे निर्वाणी रक्षावे सुरवरवंदना ॥३॥
 
 जय देव जय देव जय मंगलमूर्ती ।
-दर्शनमात्रे मनकामना पुरती ॥`,
+दर्शनमात्रे मनकामना पुरती ॥
+जय देव जय देव`,
     en: `Sukhkarta Dukhharta Varta Vighnachi
 Nuravi Puravi Prem Krupa Jayachi
 Sarvangi Sundar Uti Shendurachi
@@ -44,6 +47,7 @@ Kanthi Jhalake Maal Muktafalanchi || 1 ||
 
 Jai Dev Jai Dev Jai Mangal Murti
 Darshan Matre Manakamana Purti || Dhru ||
+Jai Dev Jai Dev
 
 Ratnakhachit Phara Tuj Gaurikumara
 Chandanachi Uti Kumkum Keshara
@@ -52,6 +56,7 @@ Runjhunati Nupure Charani Ghagariya || 2 ||
 
 Jai Dev Jai Dev Jai Mangal Murti
 Darshan Matre Manakamana Purti
+Jai Dev Jai Dev
 
 Lambodar Pitambar Phanivar Bandhana
 Saral Sond Vakratunda Trinayana
@@ -59,7 +64,8 @@ Das Ramacha Vaat Pahe Sadana
 Sankati Pavave Nirvani Rakshave Survar Vandana || 3 ||
 
 Jai Dev Jai Dev Jai Mangal Murti
-Darshan Matre Manakamana Purti`,
+Darshan Matre Manakamana Purti
+Jai Dev Jai Dev`,
   },
   {
     name: "Shree Durga Aarti",
@@ -72,6 +78,7 @@ Darshan Matre Manakamana Purti`,
 
 जय देवी जय देवी महिषासुरमथिनी ।
 सुरवर ईश्वर वरदे तारकसंजीवनी ॥ धृ ॥
+जय देवी जय देवी
 
 त्रिभुवनभुवनी पाहता तुज ऐसी नाही ।
 चारी श्रमले परंतु न बोलवे काही ।
@@ -80,6 +87,7 @@ Darshan Matre Manakamana Purti`,
 
 जय देवी जय देवी महिषासुरमथिनी ।
 सुरवर ईश्वर वरदे तारकसंजीवनी ॥
+जय देवी जय देवी
 
 प्रसन्नवदने प्रसन्न होसी निजदासा ।
 क्लेशांपासुनि सोडवी तोडी भवपाशा ।
@@ -87,7 +95,8 @@ Darshan Matre Manakamana Purti`,
 नरहरी तल्लीन झाला पदपंकजलेशा ॥३॥
 
 जय देवी जय देवी महिषासुरमथिनी ।
-सुरवर ईश्वर वरदे तारकसंजीवनी ॥`,
+सुरवर ईश्वर वरदे तारकसंजीवनी ॥
+जय देवी जय देवी`,
     en: `Durge Durgat Bhari Tujavin Sansari
 Anathnathe Ambe Karuna Vistari
 Vari Vari Janma Maranate Vari
@@ -95,6 +104,7 @@ Hari Padalo Ata Sankat Nivari || 1 ||
 
 Jai Devi Jai Devi Mahishasuramathini
 Survar Ishwar Varde Tarak Sanjivani || Dhru ||
+Jai Devi Jai Devi
 
 Tribhuvan Bhuvani Pahta Tuj Aisi Nahi
 Chari Shramale Parantu Na Bolave Kahi
@@ -103,6 +113,7 @@ Te Tu Bhaktalagi Pavasi Lavalahi || 2 ||
 
 Jai Devi Jai Devi Mahishasuramathini
 Survar Ishwar Varde Tarak Sanjivani
+Jai Devi Jai Devi
 
 Prasanna Vadane Prasanna Hosi Nijadasa
 Kleshanpasun Sodavi Todi Bhavapasha
@@ -110,7 +121,8 @@ Ambe Tujavachun Kon Puravil Asha
 Narhari Tallin Jhala Padapankajalesha || 3 ||
 
 Jai Devi Jai Devi Mahishasuramathini
-Survar Ishwar Varde Tarak Sanjivani`,
+Survar Ishwar Varde Tarak Sanjivani
+Jai Devi Jai Devi`,
   },
   {
     name: "Shree Shankar Aarti",
@@ -123,6 +135,7 @@ Survar Ishwar Varde Tarak Sanjivani`,
 
 जय देव जय देव जय श्रीशंकरा ।
 आरती ओवाळू तुज कर्पूरगौरा ॥ धृ ॥
+जय देव जय देव
 
 कर्पूरगौरा भोळा नयनी विशाळा ।
 अर्धांगी पार्वती सुमनांच्या माळा ।
@@ -131,6 +144,7 @@ Survar Ishwar Varde Tarak Sanjivani`,
 
 जय देव जय देव जय श्रीशंकरा ।
 आरती ओवाळू तुज कर्पूरगौरा ॥
+जय देव जय देव
 
 देवी दैत्य सागरमंथन पै केले ।
 त्यामाजी अवचित हलाहल जे उठिले ।
@@ -139,6 +153,7 @@ Survar Ishwar Varde Tarak Sanjivani`,
 
 जय देव जय देव जय श्रीशंकरा ।
 आरती ओवाळू तुज कर्पूरगौरा ॥
+जय देव जय देव
 
 व्याघ्रांबर फणिवरधर सुंदर मदनारी ।
 पंचानन मनमोहन मुनिजनसुखकारी ।
@@ -146,7 +161,8 @@ Survar Ishwar Varde Tarak Sanjivani`,
 रघुकुळटिळक रामदासा अंतरी ॥४॥
 
 जय देव जय देव जय श्रीशंकरा ।
-आरती ओवाळू तुज कर्पूरगौरा ॥`,
+आरती ओवाळू तुज कर्पूरगौरा ॥
+जय देव जय देव`,
     en: `Lavathavati Vikrala Brahmandi Mala
 Vishe Kanth Kala Trinetri Jwala
 Lavanyasundar Mastaki Bala
@@ -154,6 +170,7 @@ Tethuniya Jal Nirmal Vahe Jhuljhula || 1 ||
 
 Jai Dev Jai Dev Jai Shri Shankara
 Aarti Ovalu Tuj Karpuragaura || Dhru ||
+Jai Dev Jai Dev
 
 Karpuragaura Bhola Nayani Vishala
 Ardhangi Parvati Sumananchya Mala
@@ -162,6 +179,7 @@ Aisa Shankar Shobhe Umavelhala || 2 ||
 
 Jai Dev Jai Dev Jai Shri Shankara
 Aarti Ovalu Tuj Karpuragaura
+Jai Dev Jai Dev
 
 Devi Daitya Sagarmanthan Pai Kele
 Tyamaji Avachit Halahal Je Uthile
@@ -170,6 +188,7 @@ Nilkanth Naam Prasiddha Jhale || 3 ||
 
 Jai Dev Jai Dev Jai Shri Shankara
 Aarti Ovalu Tuj Karpuragaura
+Jai Dev Jai Dev
 
 Vyaghrambar Phanivardhar Sundar Madanari
 Panchanan Manmohan Munijan Sukhakari
@@ -177,7 +196,8 @@ Shatakotiche Beej Vache Uchchari
 Raghukultilak Ramdasa Antari || 4 ||
 
 Jai Dev Jai Dev Jai Shri Shankara
-Aarti Ovalu Tuj Karpuragaura`,
+Aarti Ovalu Tuj Karpuragaura
+Jai Dev Jai Dev`,
   },
   {
     name: "Shree Datta Aarti",
@@ -190,6 +210,7 @@ Aarti Ovalu Tuj Karpuragaura`,
 
 जय देव जय देव जय श्रीगुरुदत्ता ।
 आरती ओवाळिता हरली भवचिंता ॥ धृ ॥
+जय देव जय देव
 
 सबाह्य अभ्यंतरी तू एक दत्त ।
 अभाग्यासी कैची कळेल ही मात ।
@@ -198,6 +219,7 @@ Aarti Ovalu Tuj Karpuragaura`,
 
 जय देव जय देव जय श्रीगुरुदत्ता ।
 आरती ओवाळिता हरली भवचिंता ॥
+जय देव जय देव
 
 दत्त येऊनिया उभा ठाकला ।
 सद्भावे साष्टांगे प्रणिपात केला ।
@@ -206,6 +228,7 @@ Aarti Ovalu Tuj Karpuragaura`,
 
 जय देव जय देव जय श्रीगुरुदत्ता ।
 आरती ओवाळिता हरली भवचिंता ॥
+जय देव जय देव
 
 दत्त दत्त ऐसे लागले ध्यान ।
 हरपले मन झाले उन्मन ।
@@ -213,7 +236,8 @@ Aarti Ovalu Tuj Karpuragaura`,
 एका जनार्दनी श्रीदत्त ध्यान ॥४॥
 
 जय देव जय देव जय श्रीगुरुदत्ता ।
-आरती ओवाळिता हरली भवचिंता ॥`,
+आरती ओवाळिता हरली भवचिंता ॥
+जय देव जय देव`,
     en: `Trigunatmak Traimurti Datta Ha Jana
 Triguni Avatar Trailokyarana
 Neti Neti Shabda Na Ye Anumana
@@ -221,6 +245,7 @@ Survar Munijan Yogi Samadhi Na Ye Dhyana || 1 ||
 
 Jai Dev Jai Dev Jai Shri Gurudatta
 Aarti Ovalita Harali Bhavachinta || Dhru ||
+Jai Dev Jai Dev
 
 Sabahya Abhyantari Tu Ek Datta
 Abhagyasi Kaichi Kalel Hi Maat
@@ -229,6 +254,7 @@ Janma Maranacha Puralase Ant || 2 ||
 
 Jai Dev Jai Dev Jai Shri Gurudatta
 Aarti Ovalita Harali Bhavachinta
+Jai Dev Jai Dev
 
 Datta Yeuniya Ubha Thakala
 Sadbhave Sashtange Pranipat Kela
@@ -237,6 +263,7 @@ Janma Maranacha Phera Chukavila || 3 ||
 
 Jai Dev Jai Dev Jai Shri Gurudatta
 Aarti Ovalita Harali Bhavachinta
+Jai Dev Jai Dev
 
 Datta Datta Aise Lagale Dhyan
 Harapale Man Jhale Unman
@@ -244,7 +271,8 @@ Mi Tu Panachi Jhali Bolavan
 Eka Janardani Shri Datta Dhyan || 4 ||
 
 Jai Dev Jai Dev Jai Shri Gurudatta
-Aarti Ovalita Harali Bhavachinta`,
+Aarti Ovalita Harali Bhavachinta
+Jai Dev Jai Dev`,
   },
   {
     name: "Shree Vitthal Aarti",
