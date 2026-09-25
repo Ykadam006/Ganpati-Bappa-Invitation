@@ -717,21 +717,190 @@ Varuniya Vighne Deva Rakshave Dina`,
     first: "हे श्रीगणेशा, हे गणराया",
     note: "Visarjan Day Only",
     mr: `हे श्रीगणेशा, हे गणराया,
-हे शंकर-पार्वती पुत्रा, हे कार्तीकाच्या भावा,
-हे वक्रतुंडा, हे बाप्पा मोर्या,
-तुका आम्ही, आज, तुझ्या विसर्जनाच्या/सेवाकाळशी,
-गार्‍हाणा घालतो, तान् एकून घे म्हाराज्या!
+हे विघ्नहर्त्या, हे बुद्धीच्या दात्या,
+हे आमच्या लाडक्या बाप्पा मोरया,
+आज आम्ही घरापासून हजारो मैल दूर,
+या शिकागो नगरीत एकत्र आलोय.
+कोणी शिक्षणासाठी, कोणी आपल्या स्वप्नांसाठी,
+कोणी नव्या सुरुवातीसाठी इथे आलोय.
+आज या सगळ्या लेकरांचं गाऱ्हाणं
+तुझ्या चरणी घालतोय बाप्पा,
+जरा प्रेमानं ऐकून घे म्हाराज्या!
 “होय म्हाराज्या!”
 
-हे देवा, तूं आमच्या ह्या, सगळ्या गोतावळ्याक, सुखी ठेव.
-तेंची, सर्वांची प्रकृती, चांगली ठेव.
-आमच्या हातून नकळत काही चूकभूल झाली असली तर ती पोटाशी घे.
-कोणाचेही संकट, इडा-पिडा, वाकडा-नाकडा प्रकार दूर कर.
-सर्वांना उत्तम आरोग्य, सुख-समाधान आणि भरभराट दे.
-पुढच्या वर्षी लवकरात लवकर आमच्या बाप्पा तू परत ये,
-असा आमचा तुका, हात जोडून सांगणा!
+हे देवा,
+आमच्या आई-वडिलांना, भावंडांना आणि घरच्या सगळ्यांना
+सुखी, निरोगी आणि आनंदी ठेव.
+आम्ही त्यांच्यापासून कितीही दूर असलो,
+तरी त्यांचे आशीर्वाद आणि प्रेम
+सदैव आमच्यासोबत राहू दे.
+“होय म्हाराज्या!”
+
+आम्हा सर्व विद्यार्थ्यांना
+अभ्यासात बुद्धी दे, मेहनतीला यश दे,
+आणि योग्य वेळी योग्य निर्णय घेण्याची ताकद दे.
+परीक्षा असो, project असो, interview असो,
+career ची चिंता असो किंवा भविष्यातला गोंधळ असो,
+प्रत्येक संकटातून योग्य मार्ग दाखव.
+“होय म्हाराज्या!”
+
+बाप्पा,
+आमच्या प्रत्येकाला चांगल्या संधी मिळू दे.
+मेहनतीला योग्य फळ मिळू दे.
+चांगली नोकरी, चांगलं career
+आणि आयुष्यात स्थैर्य मिळू दे.
+बंद झालेले दरवाजे पाहून आम्ही खचू नये,
+आणि आमच्यासाठी योग्य असलेले दरवाजे
+तू वेळेवर उघड.
+“होय म्हाराज्या!”
+
+या परक्या देशात
+कोणालाही एकटेपणा वाटू देऊ नकोस.
+आमच्यामध्ये प्रेम, मैत्री, एकोपा
+आणि एकमेकांना मदत करण्याची भावना कायम ठेव.
+कोणाच्या मनात दुःख असेल तर त्याला आधार दे,
+कोणी अडचणीत असेल तर त्याला मदतीचा हात मिळू दे.
+“होय म्हाराज्या!”
+
+Chicago ची थंडी असो
+की आयुष्यातील कठीण दिवस,
+आमच्या मनातली ऊब कधी कमी होऊ देऊ नकोस.
+आमच्या शरीराला आरोग्य,
+मनाला शांतता,
+बुद्धीला योग्य दिशा
+आणि हृदयाला समाधान दे.
+“होय म्हाराज्या!”
+
+आमच्या हातून जाणून-अजाणून
+काही चूक झाली असेल,
+कुणाचं मन दुखावलं असेल,
+तर ती चूक पोटात घे बाप्पा.
+आम्हाला चूक समजण्याची बुद्धी दे,
+माफी मागण्याची नम्रता दे,
+आणि पुन्हा तीच चूक न करण्याची ताकद दे.
+“होय म्हाराज्या!”
+
+आमच्या सगळ्यांच्या स्वप्नांना योग्य दिशा दे.
+पण जे आम्हाला हवंय त्यापेक्षा
+जे आमच्यासाठी खरंच चांगलं आहे,
+ते आम्हाला मिळू दे.
+यश आलं तरी पाय जमिनीवर राहू दे,
+आणि अपयश आलं तरी
+पुन्हा उभं राहण्याची हिंमत दे.
+“होय म्हाराज्या!”
+
+आमची मैत्री अशीच टिकू दे.
+आज इथे भेटलेली माणसं
+उद्या जगाच्या कुठल्याही कोपऱ्यात असली,
+तरी हे नातं आणि या गणेशोत्सवाच्या आठवणी
+आमच्या मनात कायम राहू दे.
+“होय म्हाराज्या!”
+
+आणि शेवटी एवढंच मागणं बाप्पा,
+या वर्षी जसा आनंद घेऊन आलास,
+तसाच आमच्या सगळ्या चिंता, दुःख आणि अडचणी
+तुझ्यासोबत घेऊन जा.
+आमच्या घरच्यांवर, आमच्या मित्रांवर
+आणि या संपूर्ण Chicago Indian student family वर
+तुझी कृपादृष्टी कायम ठेव.
+पुढच्या वर्षी आम्ही कुठेही असू,
+कितीही व्यस्त असू,
+पण पुन्हा तुझ्या चरणी एकत्र येण्याचं भाग्य दे.
+गणपती बाप्पा मोरया!
+पुढच्या वर्षी लवकर या!
 “होय म्हाराज्या!”`,
     en: `He Shri Ganesha, He Ganaraya,
-He Shankar-Parvati Putra, He Kartikachya Bhava,`,
+He Vighnaharta, He Buddhichya Datya,
+He Amchya Ladkya Bappa Morya,
+Aaj amhi gharapasun hajaro miles door,
+ya Chicago nagarit ekatra aaloy.
+Koni shikshanasaathi, koni aaplya swapnansaathi,
+koni navya suruvatisaathi ithe aaloy.
+Aaj ya saglya lekaranch garhana
+tujhya charani ghaltoy Bappa,
+jara preman aikun ghe Maharajya!
+“Hoy Maharajya!”
+
+He Deva,
+amchya Aai-Vadilanna, bhavandanna ani gharachya saglyanna
+sukhi, nirogi ani anandi thev.
+Amhi tyanchyapasun kitihi door aslo,
+tari tyanche aashirwad ani prem
+sadaiv amchyasobat rahu de.
+“Hoy Maharajya!”
+
+Amha sarva vidyarthyanna
+abhyasat buddhi de, mehnatila yash de,
+ani yogya veli yogya nirnay ghenyachi takad de.
+Pariksha aso, project aso, interview aso,
+career chi chinta aso kiwa bhavishyacha gondhal aso,
+pratyek sankatatun yogya marg dakhav.
+“Hoy Maharajya!”
+
+Bappa,
+amchya pratyekala changlya sandhi milu de.
+Mehnatila yogya phal milu de.
+Changli nokri, changla career
+ani ayushyat sthairy milu de.
+Band jhallele darwaje pahun amhi khachu naye,
+ani amchyasathi yogya aslele darwaje
+tu velevaar ughad.
+“Hoy Maharajya!”
+
+Ya parkya deshat
+konalahi ektepana vatu deu nakos.
+Amchyamadhye prem, maitri, ekopa
+ani ekmekanna madat karnyachi bhavana kaayam thev.
+Konachya manat dukh asel tar tyala aadhar de,
+koni adchanit asel tar tyala madaticha haat milu de.
+“Hoy Maharajya!”
+
+Chicago chi thandi aso
+ki ayushyatil kathin divas,
+amchya manaatli ub kadhi kami hou deu nakos.
+Amchya sharirala aarogya,
+manala shantata,
+buddhila yogya disha
+ani hridayala samadhan de.
+“Hoy Maharajya!”
+
+Amchya hatun jaanun-ajaanun
+kahi chuk jhali asel,
+kunach man dukhavla asel,
+tar ti chuk potat ghe Bappa.
+Amhala chuk samajnyachi buddhi de,
+maafi magnyachi namrata de,
+ani punha tich chuk na karnyachi takad de.
+“Hoy Maharajya!”
+
+Amchya saglyanchya swapnanna yogya disha de.
+Pan je amhala havay tyapeksha
+je amchyasathi kharach changla aahe,
+te amhala milu de.
+Yash aal tari paay jaminivar rahu de,
+ani apayash aal tari
+punha ubha rahnyachi himmat de.
+“Hoy Maharajya!”
+
+Amchi maitri ashich tiku de.
+Aaj ithe bhetleli mansa
+udya jagachya kuthlyahi kopryat asli,
+tari he naat ani ya Ganeshotsavachya athavani
+amchya manat kaayam rahu de.
+“Hoy Maharajya!”
+
+Ani shevti evdhach magan Bappa,
+Ya varshi jasa anand gheun aalas,
+tasach amchya saglya chinta, dukh ani adchani
+tujhyasobat gheun ja.
+Amchya gharachyanvar, amchya mitranvar
+ani ya sampurna Chicago Indian Student Family var
+tujhi krupadrushti kaayam thev.
+Pudhchya varshi amhi kuthehi asu,
+kitihi busy asu,
+pan punha tujhya charani ekatra yenyach bhagya de.
+Ganpati Bappa Morya!
+Pudhchya Varshi Lavkar Ya!
+“Hoy Maharajya!”`,
   },
 ];
