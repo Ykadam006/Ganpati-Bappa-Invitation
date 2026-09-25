@@ -11,6 +11,15 @@ export type Aarti = {
 
 export const aartis: Aarti[] = [
   {
+    name: "Vakratunda Mahakaya",
+    hi: "वक्रतुण्ड महाकाय",
+    first: "वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ",
+    mr: `वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ ।
+निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥`,
+    en: `Vakratunda Mahakaya Surya Koti Samaprabha
+Nirvighnam Kuru Me Deva Sarva Karyeshu Sarvada ||`,
+  },
+  {
     name: "Shree Ganesh Aarti",
     hi: "श्री गणपतीची आरती",
     first: "सुखकर्ता दुःखहर्ता",
@@ -275,6 +284,34 @@ Aarti Ovalita Harali Bhavachinta
 Jai Dev Jai Dev`,
   },
   {
+    name: "Aarti Dnyanraja",
+    hi: "आरती ज्ञानराजा",
+    first: "आरती ज्ञानराजा महाकैवल्यतेजा",
+    mr: `आरती ज्ञानराजा ।
+महाकैवल्यतेजा ।
+सेविती साधुसंत ।
+मनु वेधला माझा ॥
+आरती ज्ञानराजा ॥ धृ ॥
+
+लोपलें ज्ञान जगीं ।
+हित नेणती कोणी ।
+अवतार पांडुरंग ।
+नाम ठेविलें ज्ञानी ॥१॥
+आरती ज्ञानराजा ॥
+
+कनकाचे ताट करीं ।
+उभ्या गोपिका नारी ।
+नारद तुंबर हो ।
+साम गायन करी ॥२॥
+आरती ज्ञानराजा ॥
+
+प्रकट गुह्य बोले ।`,
+    en: `Aarti Dnyanraja
+Mahakaivalya Teja
+Seviti Sadhu Sant
+Manu Vedhala Majha`,
+  },
+  {
     name: "Shree Vitthal Aarti",
     hi: "श्री विठ्ठलाची आरती",
     first: "येई हो विठ्ठले",
@@ -451,6 +488,31 @@ Avikshitasya Kamaprervishvedevah Sabhasada Iti
 
 Om Ekadantaya Vidmahe Vakratundaya Dhimahi
 Tanno Danti Prachodayat`,
+  },
+  {
+    name: "Morya Morya Ashtavinayak Morya",
+    hi: "अष्टविनायक मोरया",
+    first: "मोरया मोरया अष्टविनायक मोरया",
+    mr: `मोरया मोरया अष्टविनायक मोरया
+मोरया मोरया चिंतामणी मोरया
+मोरया मोरया मयूरेश्वर मोरया
+मोरया मोरया गिरिजात्मजा मोरया
+मोरया मोरया महागणपती मोरया
+मोरया मोरया सिद्धिविनायक मोरया
+मोरया मोरया विघ्नेश्वर मोरया
+मोरया मोरया वरदविनायक मोरया
+मोरया मोरया बल्लाळेश्वर मोरया
+मोरया मोरया अष्टविनायक मोरया`,
+    en: `Morya Morya Ashtavinayak Morya
+Morya Morya Chintamani Morya
+Morya Morya Mayureshwar Morya
+Morya Morya Girijatmaja Morya
+Morya Morya Mahaganpati Morya
+Morya Morya Siddhivinayak Morya
+Morya Morya Vighneshwar Morya
+Morya Morya Varadvinayak Morya
+Morya Morya Ballaleshwar Morya
+Morya Morya Ashtavinayak Morya`,
   },
   {
     name: "Closing Shloks",
@@ -648,5 +710,28 @@ Chukale Amuche Kahi Tyachi Kshama Asavi || 8 ||
 
 Jahale Bhajan Amhi Namito Tav Charana
 Varuniya Vighne Deva Rakshave Dina`,
+  },
+  {
+    name: "Ganpatiche Garhane",
+    hi: "गणपतीचे गाऱ्हाणं",
+    first: "हे श्रीगणेशा, हे गणराया",
+    note: "Visarjan Day Only",
+    mr: `हे श्रीगणेशा, हे गणराया,
+हे शंकर-पार्वती पुत्रा, हे कार्तीकाच्या भावा,
+हे वक्रतुंडा, हे बाप्पा मोर्या,
+तुका आम्ही, आज, तुझ्या विसर्जनाच्या/सेवाकाळशी,
+गार्‍हाणा घालतो, तान् एकून घे म्हाराज्या!
+“होय म्हाराज्या!”
+
+हे देवा, तूं आमच्या ह्या, सगळ्या गोतावळ्याक, सुखी ठेव.
+तेंची, सर्वांची प्रकृती, चांगली ठेव.
+आमच्या हातून नकळत काही चूकभूल झाली असली तर ती पोटाशी घे.
+कोणाचेही संकट, इडा-पिडा, वाकडा-नाकडा प्रकार दूर कर.
+सर्वांना उत्तम आरोग्य, सुख-समाधान आणि भरभराट दे.
+पुढच्या वर्षी लवकरात लवकर आमच्या बाप्पा तू परत ये,
+असा आमचा तुका, हात जोडून सांगणा!
+“होय म्हाराज्या!”`,
+    en: `He Shri Ganesha, He Ganaraya,
+He Shankar-Parvati Putra, He Kartikachya Bhava,`,
   },
 ];
